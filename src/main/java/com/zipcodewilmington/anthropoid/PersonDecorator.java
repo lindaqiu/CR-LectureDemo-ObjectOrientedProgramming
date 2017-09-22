@@ -2,7 +2,7 @@ package com.zipcodewilmington.anthropoid;
 /**
  * Created by leon on 6/20/17.
  */
-
+// TODO - Rename classs to PersonFacade
 public class PersonDecorator {
     private final Person person;
 
