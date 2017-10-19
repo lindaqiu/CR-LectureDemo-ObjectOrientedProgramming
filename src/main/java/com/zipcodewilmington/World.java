@@ -1,7 +1,7 @@
 package com.zipcodewilmington;
 
 import com.zipcodewilmington.anthropoid.Person;
-import com.zipcodewilmington.anthropoid.PersonDecorator;
+import com.zipcodewilmington.anthropoid.PersonHandler;
 import com.zipcodewilmington.anthropoid.PersonFactory;
 import com.zipcodewilmington.anthropoid.PersonWarehouse;
 
@@ -21,7 +21,7 @@ public class World {
         int currentIndex = 0;
         while(currentIndex < people.length) {
             Person currentPerson = people[currentIndex];
-            PersonDecorator personDecorator = new PersonDecorator(currentPerson);
+            PersonHandler personDecorator = new PersonHandler(currentPerson);
             System.out.println(personDecorator.sayAge());
             currentIndex++;
         }

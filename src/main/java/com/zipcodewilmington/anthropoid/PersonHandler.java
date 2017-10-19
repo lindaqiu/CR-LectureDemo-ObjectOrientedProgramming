@@ -3,10 +3,10 @@ package com.zipcodewilmington.anthropoid;
  * Created by leon on 6/20/17.
  */
 // TODO - Rename classs to PersonFacade
-public class PersonDecorator {
+public class PersonHandler {
     private final Person person;
 
-    public PersonDecorator(Person person) {
+    public PersonHandler(Person person) {
         this.person = person;
     }
 
