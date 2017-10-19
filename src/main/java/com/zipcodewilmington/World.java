@@ -10,10 +10,6 @@ import com.zipcodewilmington.anthropoid.PersonWarehouse;
  */ // TODO Do this
 public class World {
 	public static void main(String[] args) {
-        //PersonFactory.createRandomPerson();
-        //PersonFactory.createRandomPerson();
-        //PersonFactory.createRandomPerson();
-        //PersonFactory.createRandomPerson();
         PersonFactory.createRandomPerson();
 
         Person[] people = PersonWarehouse.getPeople();
