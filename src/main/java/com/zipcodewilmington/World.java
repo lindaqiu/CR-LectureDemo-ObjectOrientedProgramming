@@ -9,7 +9,7 @@ import com.zipcodewilmington.anthropoid.PersonWarehouse;
  * Created by leon on 6/24/17.
  */ // TODO Do this
 public class World {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         PersonFactory.createRandomPerson();
 
         Person[] people = PersonWarehouse.getPeople();
